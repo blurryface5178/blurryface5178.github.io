@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Abhijan Wasti</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="node_modules/animejs/lib/anime.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg d-flex justify-content-end">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h1 style="color: #f7ebe8"> Abhijan Wasti </h1>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right navbar-light ml-auto mr-1" type="button" data-toggle="collapse" data-target="#hellothere">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="hellothere">
+                <div class="navbar-nav text-right">
+                    <span class="nav-item "> <a class="nav-link text-white" href="technical.html"> Tech </a></span>
+                    <span class="nav-item"> <a class="nav-link text-white" href="art.html"> Art </a></span>
+                    <span class="nav-item"> <a class="nav-link text-white" href="CV.pdf" target="_blank"> Download CV </a></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="background-wrap">
+        <span class="title jumbotron" id="technical">
+            Computer Programmer
+        </span>
+        <video autoplay muted loop id="video">
+            <source src="img/coding.mp4" type="video/mp4">
+            Video Not Supported
+        </video>
+    </div>
+    <div class="content container-fluid p-3">
+        <div class="card-deck pt-3">
+            <div class="card text-center">
+                <h2 class="card-header p-3"> MazeSolver </h2>
+                <p class="card-body card-text"> Implementation of a maze solver that path finds from a top-view image of a maze </p>
+                <a href="https://github.com/blurryface5178/mazesolver" class="stretched-link">
+                    <img class="card-img" src="img/mazesolver.png" alt="Maze Solver">
+                </a>
+                <p class="p-3"><b>Language</b>: Python, C++ <br>
+                    <b>Platform</b>: PC, Arduino </p>
+            </div>
+            <div class="card text-center">
+                <h2 class="card-header pt-3"> PyCam </h2>
+                <p class="card-body card-text"> Implementation of PiSpy for the Raspberry Pi </p>
+                <a href="https://github.com/blurryface5178/pycam" class="stretched-link">
+                    <img class="card-img" src="img/picam.png" alt="PyCam">
+                </a>
+                <p class="p-3"><b>Language</b>: Python <br>
+                    <b>Platform</b>: Raspberri Pi 3B+ </p>
+            </div>
+            <div class="card text-center">
+                <h2 class="card-header pt-3"> PiSpy </h2>
+                <p class="card-body card-text"> Color Detection and QR scanning implementation </p>
+                <a href="https://github.com/blurryface5178/PiSpy" class="stretched-link">
+                    <img class="card-img" src="img/pyspy.png" alt="PiSpy">
+                </a>
+                <p class="p-3"><b>Language</b>: Python<br>
+                    <b>Platform</b>: PC</p>
+            </div>
+            <div class="card text-center">
+                <h2 class="card-header pt-3"> Mazeball </h2>
+                <p class="card-body card-text"> Software implementation of Ball Labyrinth Game </p>
+                <a href="https://github.com/blurryface5178/MazeBall" class="stretched-link">
+                    <img class="card-img" src="img/mazeball.png" alt="Maze Ball">
+                </a>
+                <p class="p-3"><b>Language</b>: C# <br>
+                    <b>Platform</b>: PC, Android </p>
+            </div>
+            <div class="card text-center">
+                <h2 class="card-header pt-3"> MouseC </h2>
+                <p class="card-body card-text"> Application that plays classic Rock, Paper, Scissor's game with the player </p>
+                <a href="https://github.com/blurryface5178/MouseC-1" class="stretched-link">
+                    <img class="card-img" src="img/mousec.png" alt="MouseC">
+                </a>
+                <p class="p-3"><b>Language</b>: C++ <br>
+                    <b>Platform</b>: PC</p>
+            </div>
+        </div>
+    </div>
+
+  <div class="container d-flex justify-content-center">
+        <a href="https://www.facebook.com/abhijan.wasti" target="_blank"><img class="m-3" src="img/icons/facebook.svg" width="50px"></a>
+        <a href="https://www.instagram.com/blurry_face5178/" target="_blank"><img class="m-3" src="img/icons/insta.svg" width="50px"></a>
+        <a href="https://github.com/blurryface5178" target="_blank"><img class="m-3" src="img/icons/github.svg" width="50px"></a>
+        <a href="https://www.linkedin.com/in/abhijan-wasti-85978a145/" target="_blank"><img class="m-3" src="img/icons/linkedin.svg" width="50px"></a>
+        <a href="https://www.youtube.com/channel/UCJ-bw-IHVL2kWoCCSUhLwcQ" target="_blank"><img class="m-3" src="img/icons/youtube.svg" width="50px"></a>
+    </div>
+    <div class="text-center pb-3 text-light">
+        Copyright (c) Abhijan Wasti
+    </div>
+    </div>
+    <script src="animations.js"></script>
+</body>
