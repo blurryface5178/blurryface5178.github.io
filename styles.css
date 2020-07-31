@@ -13,6 +13,7 @@ body {
 .navbar {
     background-color: #252530;
     position: relative;
+    z-index: 50;
 }
 
 .title {
@@ -46,9 +47,10 @@ body {
     background: none;
  }
 
+
 #left,
 #right {
-    height: 100vh;
+    height: 80vh;
     width: 50%;
 }
 
@@ -69,9 +71,13 @@ body {
     .title-contain{
         font-size: 2rem;
     }
+    #left, #right{
+        height: 50vh;
+    }
+
     .video-container{
         width: 50vw;
-        height: 100vh;
+        height: 95vh;
     }
 }
 
