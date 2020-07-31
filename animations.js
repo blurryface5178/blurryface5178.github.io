@@ -4,10 +4,19 @@ document.addEventListener("mouseout", onOut);
 
 var cards = document.getElementsByClassName('card');
 var title = document.getElementsByClassName('title');
-var modal = document.getElementsByClassName('modal');
+
+console.log(cards);
+console.log(title);
 
 anime({
     targets: title,
+    scale: 1.1,
+    duration: 1500,
+    direction: 'alternate'
+})
+
+anime({
+    targets: document.getElementsByClassName('title-contain'),
     scale: 1.5,
     duration: 1500,
     direction: 'alternate'
@@ -16,7 +25,7 @@ anime({
 anime({
     targets: cards,
     scale: 1.1,
-    delay: anime.stagger(250),
+    delay: anime.stagger(50),
     direction: 'alternate'
 })
 
@@ -43,8 +52,8 @@ function onHover(event) {
     if (parentTag == 'A') {
         anime({
             targets: elem,
-			borderRadius: ['0%', '50%'],
-            scale: 1.5,
+			borderRadius: ['0%', '25%'],
+            scale: 1.15,
         });
     }
     event.preventDefault();
@@ -74,7 +83,7 @@ function onOut(event) {
         anime({
             targets: elem,
             scale: 1,
-			borderRadius: ['50%', '0%'],
+			borderRadius: ['25%', '0%'],
         });
     }
     event.preventDefault();
