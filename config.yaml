@@ -2,6 +2,7 @@ baseURL : "blurryface5178.github.io"
 languageCode : "en-us"
 title : "Abhijan Wasti"
 theme : "hugo-profile"
+min_version : "0.68.0"
 
 Menus:
   main:
