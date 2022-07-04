@@ -1,0 +1,50 @@
+{{ if .Site.Params.experience.enable | default false }}
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Experience</h3>
+        <div class="row justify-content-center py-5">
+            {{ $indexMenu := .Site.Params.experience.index }}
+            {{ range $index, $element := .Site.Params.experience.items }}
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    {{ if $indexMenu }}
+                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                        <div class="py-2">
+                            <span class="index shadow-lg">
+                                {{ add $index 1 }}
+                            </span>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    <div class="col-md-9">
+                        <div class="experience-container card" style="font-family: Alata">
+                            <div class="card-body fade show bg-transparent">
+                                <div>
+                                    <span class="h4">{{ .job }}</span>
+                                    <small>-</small>
+                                    <a href="{{ .company.url }}" target="_blank">{{ .company.name }}</a>
+                                    <div class="pb-1">
+                                        <small>{{ .date }}</small>
+                                    </div>
+                        
+                                    {{ if .featuredLink.enable | default false }}
+                                    <div class="py-2 featuredLink">
+                                        <a class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }} target="_blank">
+                                            {{ .featuredLink.name | default "Featured Link" }} 
+                                        </a>
+                                    </div>
+                                    {{ end }}
+                                </div>
+                        
+                                {{ .content | markdownify}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
