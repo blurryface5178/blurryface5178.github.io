@@ -1,21 +1,20 @@
-baseURL : 
+baseURL : "blurryface5178.github.io"
 languageCode : "en-us"
 title : "Abhijan Wasti"
 theme : "hugo-profile"
-min_version : "0.68.0"
 
 Menus:
   main:
     - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: "#"
+      name: Posts
+      title: Posts
+      url: "/posts/"
       weight: 1
     
     - identifier: gallery
       name: Gallery
       title: Gallery
-      url: "#" #/gallery
+      url: "/gallery/"
       weight: 2
 
 # Dropdown menu
@@ -136,13 +135,13 @@ params:
         company: 
           name: "Rochester Institute of Technology"
           url: "https://www.rit.edu/science/multidisciplinary-vision-research-laboratory"
-        date: "May 2021 - Aug 2021"
+        date: "Aug 2021 - Present"
         featuredLink:
           enable: false
           name: "Sentiment Classifier"
           url: "https://github.com/blurryface5178/Sentiment-Classifier"
         content: 
-                "- Improving current eye tracking technology for better gaze estimation
+                "- Improving current eye tracking technology for better gaze estimation. Details [here](blogs/rit/).
 
                 - Completed responsibilities as a TA with a pass rate of 87%"
 
@@ -221,13 +220,6 @@ params:
           enable: true
           name: "Captsone Project: Aerial View-Based Guidance System"
           url: "https://github.com/blurryface5178/mazesolver"
-  
-      - title: "High School - Science"
-        school:
-          name: "St. Xavier's College, Maitighar, Kathmandu"
-          url: "https://sxc.edu.np/"
-          courses: false
-        #GPA: "4.2 out of 5.0"
         
   # Achievements
   achievements:
@@ -308,7 +300,7 @@ params:
 
   #Contact
   contact:
-    enable: false
+    enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: abhijanwasti@gmail.com
     btnName: Mail me
