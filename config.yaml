@@ -262,7 +262,7 @@ params:
         image: /images/projects/colora.jpg
         featured:
           name: Deatils...
-          link: https://github.com/blurryface5178/Colora
+          link: /posts/colora
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"

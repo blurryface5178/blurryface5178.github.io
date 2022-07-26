@@ -2,9 +2,15 @@
 title: "Research at RIT"
 date: 2022-07-26T11:11:05-04:00
 author: Abhijan
+# image: "/images/Abhijan Wasti.jpg"
 draft: false
 socialShare: false
 toc: false
+markup:
+  goldmark:
+    rendered:
+      unsafe: false
+
 ---
 
 # Research at RIT : Improving Eye Tracing for Better Gaze Estimation
