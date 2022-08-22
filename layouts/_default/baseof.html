@@ -8,7 +8,15 @@
     {{- block "title" . }} {{- end }}
   </title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ1N29H271"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FQ1N29H271');
+</script>
 <body class="light" onload="loading()">
   <!-- javascripts -->
   <!-- <script src="/js/jquery-3.6.0.min.js"></script> -->
