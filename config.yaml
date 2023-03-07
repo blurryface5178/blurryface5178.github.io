@@ -197,7 +197,7 @@ params:
         names: " Fourier Methods for Imaging | Human Visual Systems | Radiometry \\
 
                 Advanced Eye Tracking | Image Processing and Computer Vision | Procedural Shading"
-        GPA: "3.79 / 4.0"
+        # GPA: "3.79 / 4.0"
         # content: |-
 
       - title: "Bachelors in Electronics and Communication Engineering"
