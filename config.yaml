@@ -102,7 +102,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: /pdfs/Resume.pdf
+      url: https://drive.google.com/file/d/1YWqIRkIYzRQADUfLNopacfMVhYojNkwt/view?usp=sharing
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
