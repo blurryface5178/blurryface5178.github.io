@@ -131,6 +131,20 @@ params:
     enable: true
     index: false
     items:
+      - job: "Machine Learning and Artificial Intelligence Intern"
+        company: 
+          name: "Owl Autonomous Imaging"
+          url: "https://www.owlai.us/"
+        date: "Jan 2022 - May 2022"
+        featuredLink:
+          enable: false
+          name: "Sentiment Classifier"
+          url: "https://github.com/blurryface5178/Sentiment-Classifier"
+        content: 
+                " Implemented semantic segmentation network using thermal images of off-road terrain driving data to generate traversability maps for visual odometry
+                
+                 Designed and developed an inhouse image quality measurement technique to assess and benchmark lens quality and  perform focus calibration"
+  
       - job: "Research Assistant"
         company: 
           name: "Rochester Institute of Technology"
@@ -141,9 +155,8 @@ params:
           name: "Sentiment Classifier"
           url: "https://github.com/blurryface5178/Sentiment-Classifier"
         content: 
-                "- Improving current eye tracking technology for better gaze estimation. Details [here](blogs/rit/).
-
-                - Completed responsibilities as a TA with a pass rate of 87%"
+                " Worked with a team on the automation of synthetic image data set generation for a semantic segmentation network and improved pipeline performance. Details [here] (/posts/rit/)
+                 Performed data analysis and visualization of time series gaze data from a Pupil Labs eye tracker to understand human behavior"
 
       - job: "Machine Learning Intern"
         company: 
@@ -155,15 +168,15 @@ params:
           name: "Sentiment Classifier"
           url: "https://github.com/blurryface5178/Sentiment-Classifier"
         content:
-                "- Reviewed and implemented techniques in exploratory data analysis and data visualization
+                " Reviewed and implemented techniques in exploratory data analysis and data visualization
 
-                  - Worked with libraries such as numpy, pandas and matplotlib for statistical analysis and modeling
+                   Worked with libraries such as numpy, pandas and matplotlib for statistical analysis and modeling
 
-                  - Reviewed and implemented machine learning pipeline and deep learning architecture
+                   Reviewed and implemented machine learning pipeline and deep learning architecture
 
-                  - Collborated with a team over git and google colab
+                   Collborated with a team over git and google colab
 
-                  - Created APIs to deploy ML models with tools such as fastapi, streamit and docker"
+                   Created APIs to deploy ML models with tools such as fastapi, streamit and docker"
           
       - job: "Embedded Systems Developer"
         company: 
@@ -175,13 +188,13 @@ params:
           name: "Sentiment Classifier"
           url: "https://github.com/blurryface5178/Sentiment-Classifier"
         content:
-                "- Designed and implemented a transformer monitoring system for the urban electricity grid
+                " Designed and implemented a transformer monitoring system for the urban electricity grid
 
-                  - Developed a prototype for an autonomous artificial environment control system for solar desiccator
+                   Developed a prototype for an autonomous artificial environment control system for solar desiccator
 
-                  - Developed a prototype for a low-cost sanitary pad dispenser
+                   Developed a prototype for a low-cost sanitary pad dispenser
                   
-                  - Developed a low-cost GPS-less technique for geolocation suitable for a business district"
+                   Developed a low-cost GPS-less technique for geolocation suitable for a business district"
 
   # Education
   education:
