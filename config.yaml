@@ -151,12 +151,12 @@ params:
           url: "https://www.rit.edu/science/multidisciplinary-vision-research-laboratory"
         date: "Aug 2021 - Present"
         featuredLink:
-          enable: false
-          name: "Sentiment Classifier"
-          url: "https://github.com/blurryface5178/Sentiment-Classifier"
+          enable: true
+          name: "My Work at RIT"
+          url: /posts/rit/
         content: 
                 "- Worked with a team on the automation of synthetic image data set generation for a semantic segmentation network and improved pipeline performance. Details [here] (/posts/rit/)
-                
+
                 - Performed data analysis and visualization of time series gaze data from a Pupil Labs eye tracker to understand human behavior"
 
       - job: "Machine Learning Intern"
