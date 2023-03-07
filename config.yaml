@@ -155,7 +155,7 @@ params:
           name: "My Work at RIT"
           url: /posts/rit/
         content: 
-                "- Worked with a team on the automation of synthetic image data set generation for a semantic segmentation network and improved pipeline performance. Details [here] (/posts/rit/)
+                "- Worked with a team on the automation of synthetic image data set generation for a semantic segmentation network and improved pipeline performance.
 
                 - Performed data analysis and visualization of time series gaze data from a Pupil Labs eye tracker to understand human behavior"
 
