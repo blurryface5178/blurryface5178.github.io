@@ -102,7 +102,7 @@ params:
     button:
       enable: true
       name: "CV"
-      url: https://drive.google.com/file/d/1M2jp6EDmbDiXX71cMVB53jfkdegsih_x/view?usp=sharing
+      url: https://drive.google.com/file/d/1CY3QZG1RiPAAdAFzJnsoXvj1eHK7FC-R/view?usp=sharing
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
