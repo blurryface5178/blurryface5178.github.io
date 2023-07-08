@@ -101,8 +101,8 @@ params:
     image: /images/Abhijan Wasti.jpg
     button:
       enable: true
-      name: "Resume"
-      url: https://drive.google.com/file/d/1YWqIRkIYzRQADUfLNopacfMVhYojNkwt/view?usp=sharing
+      name: "CV"
+      url: https://drive.google.com/file/d/1M2jp6EDmbDiXX71cMVB53jfkdegsih_x/view?usp=sharing
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -124,7 +124,7 @@ params:
         - "**Programming Languages:**  Python | C | C++ | MATLAB | Javascript | HTML | CSS"
         - "**Frameworks:** OpenCV | sklearn | PyTorch "
         - "**Softwares:** Blender | Pupil Core"
-        - "**Online Courses:** "
+        # - "**Online Courses:** "
 
   # Experience
   experience:
